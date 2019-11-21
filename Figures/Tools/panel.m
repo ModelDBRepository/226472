@@ -3791,7 +3791,7 @@ classdef (Sealed = true) panel < handle
 			% we try to do the same, but it's hack-o-rama.
 
 			% calibration offsets - i measured these
-			% empirically, what a load of shit
+			% empirically
 			font_fudge = [2 1/3];
 			nofont_fudge = [2 0];
 
@@ -3822,7 +3822,7 @@ classdef (Sealed = true) panel < handle
 				'Position', [0.5 -y 1]);
 
 			% calibration offsets - i measured these
-			% empirically, what a load of shit
+			% empirically
 			font_fudge = [3 1/6];
 			nofont_fudge = [2 0];
 
@@ -4741,7 +4741,7 @@ function store = storeAxisState(h)
 % the figure is resized for printing. this is what the user
 % will expect, which is why we go through this palaver.
 %
-% however, for fuck's sake. the following code illustrates
+% however the following code illustrates
 % an idiosyncrasy of matlab (i would call this an
 % inconsistency, myself, but there you go).
 %
